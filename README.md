@@ -33,6 +33,7 @@ $wgOAuth2Client['configuration']['api_endpoint']           = ''; // URL to fetch
 $wgOAuth2Client['configuration']['redirect_uri']           = ''; // URL for OAuth2 server to redirect to
 
 $wgOAuth2Client['configuration']['username'] = 'username'; // JSON path to username
+$wgOAuth2Client['configuration']['real_name'] = 'username'; // JSON path to the user's display name
 $wgOAuth2Client['configuration']['email'] = 'email'; // JSON path to email
 ```
 
@@ -55,6 +56,7 @@ Then your JSON path configuration should be these
 
 ```
 $wgOAuth2Client['configuration']['username'] = 'user.username'; // JSON path to username
+$wgOAuth2Client['configuration']['real_name'] = 'user.username'; // JSON path to username
 $wgOAuth2Client['configuration']['email'] = 'user.email'; // JSON path to email
 ```
 
